@@ -8,4 +8,4 @@ def my_find(collection)
   end
 end
 
-my_find((1..100).to_a) {|i| if i % 3 == 0 && i % 5 == 0}
+my_find((1..100).to_a) {|i| if i % 3 == 0 && i % 5 == 0 }
