@@ -11,4 +11,4 @@ def my_find(collection)
   end
 end
 
-my_find(collection) {|i| if i % 3 == 0 and i % 5 == 0 }
+my_find(collection) {|i| i % 3 == 0 and i % 5 == 0 }
