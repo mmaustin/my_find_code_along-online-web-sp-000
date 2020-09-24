@@ -1,5 +1,8 @@
 require 'pry'
 
+collection = (1..100).to_a
+
+
 def my_find(collection)
   i = 0
   while i < collection.length
@@ -8,4 +11,4 @@ def my_find(collection)
   end
 end
 
-my_find((1..100).to_a) {|i| if i % 3 == 0 && i % 5 == 0 }
+my_find(collection) {|i| if i % 3 == 0 && i % 5 == 0 }
